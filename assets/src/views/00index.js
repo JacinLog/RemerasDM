@@ -1,4 +1,4 @@
-import allPages from './_index.js'
+import allPages from './000index.js'
 
 
 let _pages={
