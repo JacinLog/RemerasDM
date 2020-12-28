@@ -1,21 +1,37 @@
 import allPages from './indexviews.js'
 
-
 let _pages={
-    Response404 : { template: '<h1>El verdadero 404</h1><h3>No se ha encontrado la url consultada</h3>' },
+    Response404 : { template: '<h1 class="text-center">El verdadero 404</h1><h3 class="text-center">No se ha encontrado la url consultada</h3>' },
     home: {
         inicio: allPages.home.Inicio,
         informacion: allPages.home.Informacion,
     },
+    perfil:{
+        login:allPages.perfil.Login,
+        me:allPages.perfil.Me,
+        // config:allPages.pefil.config
+    },
+    // tienda:{
+    //     inicio: allPages.tienda.inicio,
+    //     combo: allPages.tienda.combo
+    // }
 }
 
 let _routes={
     'home':{
         'inicio': _pages.home.inicio,
         'info': _pages.home.informacion,
-    }
+    },
+    'perfil':{
+        'inicio':_pages.perfil.login,
+        'me':_pages.perfil.me,
+        // 'config':_pages.perfil.configuration,
+    },
+    // 'tienda':{
+    //     'inicio':_pages.tienda.inicio,
+    //     'kombo':_pages.tienda.combo
+    // }
 }
-
 
 let UrlSinHash = () => {
     return {
@@ -37,12 +53,9 @@ let UrlSinHash = () => {
             else
                 ViewRoute = hash.split('/')[2];
             
-console.log("Antes ",ViewRoute)
             //FALLA en algo? O una de dos: O quitás esta condición, o en todos los _route.(ambiente) pones un inicio
             if(ViewRoute == undefined || ViewRoute == "")
                 ViewRoute = "inicio";
-console.log("Despues ",ViewRoute)
-
             return ViewRoute;
         }
     }
@@ -54,8 +67,7 @@ export default {
         currentApp: UrlSinHash().currentApp(),
         currentView: UrlSinHash().currentView()
      }
-    }
-    ,
+    },
     computed: {
         CurrentComponent(){
 
@@ -69,7 +81,6 @@ export default {
                 }
             })
 
-            console.log("this current APP : : : ", this.currentApp,existe)
             if(existe == "_no")
                 return _pages.Response404
             let ListadoViews = Object.keys(_routes[existe])

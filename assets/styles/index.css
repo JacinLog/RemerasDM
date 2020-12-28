@@ -40,10 +40,13 @@ body{
     position: sticky;
 }
  */
-
+.bg-dark-50{
+    background: #000a !important;
+}
 header{
     position: sticky;
     top:-1px;
+    z-index:1;
 }
 #ViewApp{
     min-height:70vh;

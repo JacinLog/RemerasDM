@@ -14,15 +14,12 @@ const header = {
         <li class="nav-item">
             <a class="nav-link" href="#/Tienda"><i class="fas fa-shopping-bag"></i> Tienda</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Administración</a>
-        </li>
         <li class="nav-item dropdown float-right">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Perfil</a>
             <div class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item" href="#/perfil/login">Iniciar Sesion</a>
+                <a class="dropdown-item" href="?inicio=1#/perfil/">Iniciar Sesion</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#/perfil/signup">Registrarse</a>
+                <a class="dropdown-item" href="?inicio=2#/perfil/">Registrarse</a>
             </div>
         </li>
     </ul>
