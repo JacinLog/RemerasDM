@@ -17,9 +17,9 @@ const header = {
         <li class="nav-item dropdown float-right">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Perfil</a>
             <div class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item" href="?inicio=1#/perfil/">Iniciar Sesion</a>
+                <a class="dropdown-item" href="#/perfil/">Iniciar Sesion</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="?inicio=2#/perfil/">Registrarse</a>
+                <a class="dropdown-item" href="#/perfil/">Registrarse</a>
             </div>
         </li>
     </ul>
