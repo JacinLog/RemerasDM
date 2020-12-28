@@ -12,7 +12,7 @@ const header = {
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-shopping-bag"></i> Tienda</a>
+            <a class="nav-link" href="#/Tienda"><i class="fas fa-shopping-bag"></i> Tienda</a>
         </li>
         <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Administración</a>
@@ -20,9 +20,9 @@ const header = {
         <li class="nav-item dropdown float-right">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Perfil</a>
             <div class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item" href="#">Iniciar Sesion</a>
+                <a class="dropdown-item" href="#/perfil/login">Iniciar Sesion</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Registrarse</a>
+                <a class="dropdown-item" href="#/perfil/signup">Registrarse</a>
             </div>
         </li>
     </ul>
