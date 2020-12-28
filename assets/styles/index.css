@@ -40,8 +40,24 @@ body{
     position: sticky;
 }
  */
+/* Bootstrap */
+.carousel-caption{
+    bottom: -13px !important;
+}
+.carousel-indicators{
+    bottom:-10px !important;
+}
+
+/**  Custom  */
+.shadow-jc{
+    box-shadow: 0px 0px 1rem -.3rem black;
+}
+
 .bg-dark-50{
     background: #000a !important;
+}
+.bg-light-50{
+    background: #fff5 !important;
 }
 header{
     position: sticky;

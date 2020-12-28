@@ -1,4 +1,4 @@
-import sNav from './snav/indexsnav.js'
+import sNav from './snav/snav.js'
 import View from './views/indexroute.js'
 
 const _a_ = Vue.createApp({}).component("header-template",sNav.header).mount("#sNavHeader")

@@ -5,6 +5,7 @@ let _pages={
     home: {
         inicio: allPages.home.Inicio,
         informacion: allPages.home.Informacion,
+        blog: allPages.home.Blog,
     },
     perfil:{
         login:allPages.perfil.Login,
@@ -21,6 +22,7 @@ let _routes={
     'home':{
         'inicio': _pages.home.inicio,
         'info': _pages.home.informacion,
+        'blog': _pages.home.blog,
     },
     'perfil':{
         'inicio':_pages.perfil.login,

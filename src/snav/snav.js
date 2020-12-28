@@ -1,6 +1,6 @@
 const header = {
     template:`
-    <div>
+<div>
     <ul class="nav bg-light justify-content-between ">
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-tshirt"></i> DM</a>
@@ -71,7 +71,7 @@ const header = {
 const footer = {
     template:`
     
-    <ul class="nav justify-content-center">
+<ul class="nav justify-content-center">
   <li class="nav-item">
     <a class="nav-link text-decoration-none text-white" href="#">Insta <i class="fab fa-instagram"></i> gram</a>
   </li>
