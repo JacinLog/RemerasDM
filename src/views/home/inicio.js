@@ -42,25 +42,25 @@ export default{
 
 
     <div class="bg-light-50 py-5 mt-2">
-      Último en stock
     </div>
     <div class="bg-light-50 py-5 mt-2">
-      Stock más reciente
     </div>
     <div class="bg-light-50 py-5 my-2">
-      Más populares
     </div>
     <div class="bg-light-50 py-5 mt-2">
-      Combos de oferta
     </div>
     <div class="bg-light-50 py-5 mt-2">
-      Últimas fotos instagram
     </div>
     <div class="bg-light-50 py-5 mt-2">
-      Últimas entradas blog
     </div>
-  </div>
-</div>
-
-     `
-}
+    </div>
+    </div>
+    
+    `
+  }
+  // Últimas entradas blog
+  // Últimas fotos instagram
+  // Combos de oferta
+  // Más populares
+  // Stock más reciente
+  // Último en stock
