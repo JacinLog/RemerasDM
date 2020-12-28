@@ -1,0 +1,54 @@
+/* principal */
+/* .principal.identificacion .tab{
+    transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+.principal.identificacion .tab.active {
+    opacity: 1;
+    height: auto;
+} */
+/* 
+body{
+    overflow-x: hidden;
+}
+
+#sNavHeader{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width:100vw;
+}
+#sNavHeader ul{
+    list-style-type: none;
+    display:inline-flex;
+    margin:0px;
+    padding:0px;
+}
+
+#sNavHeader .visible{
+    display:block;
+}
+
+#sNavHeader .oculto{
+    display:none;
+}
+#sNavHeader{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}
+ */
+
+header{
+    position: sticky;
+    top:-1px;
+}
+#ViewApp{
+    min-height:70vh;
+}
+footer{
+    height:100px;
+    padding-top:1rem;
+}
