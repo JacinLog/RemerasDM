@@ -1,7 +1,7 @@
 export default{
     template: `
     
-    <div class="p-5">
+    <div class="p-5 bg-dark-50">
         <h1>
             Acerca de nosotros
         </h1>
