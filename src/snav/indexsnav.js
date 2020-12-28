@@ -5,10 +5,10 @@ const header = {
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-tshirt"></i> DM</a>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="/#/home">Inicio</a>
-                <a class="dropdown-item" href="/#/home/info">Acerca de nosotros</a>
+                <a class="dropdown-item" href="#/home">Inicio</a>
+                <a class="dropdown-item" href="#/home/info">Acerca de nosotros</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/#/home/blog">Blog</a>
+                <a class="dropdown-item" href="#/home/blog">Blog</a>
             </div>
         </li>
         <li class="nav-item">
@@ -40,19 +40,19 @@ const header = {
                 submenu:[
                     {
                         nombre:"Inicio",
-                        attr1:"/#/home/"
+                        attr1:"#/home/"
                     },
                     {
                         nombre:"Info",
-                        attr1:"/#/home/info"
+                        attr1:"#/home/info"
                     },
                     {
                         nombre:"Iniciar sesion",
-                        attr1:"/#/home/identificacion"
+                        attr1:"#/home/identificacion"
                     },
                     {
                         nombre:"Perfil",
-                        attr1:"/#/home/perfil"
+                        attr1:"#/home/perfil"
                     }
                 ]
             },
